@@ -16,6 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".kalender" />
+        <activity android:name=".mma" />
+        <activity android:name=".Dagbog"></activity>
     </application>
 
 </manifest>

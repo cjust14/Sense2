@@ -1,0 +1,13 @@
+package com.example.cecil.sense;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class Dagbog extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_dagbog);
+    }
+}
