@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.cecil.sense.Info"
+    tools:showIn="@layout/activity_info">
+
+    <ScrollView
+        android:layout_width="370dp"
+        android:layout_height="492dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="7dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="32dp"
+                android:text="Velkommen til"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginEnd="8dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:text="SENSE"
+                android:textAlignment="center"
+                android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.502"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="“I Sense slipper du for trættende kalorietælling og vejning af din mad. I stedet får du nogle enkle og overskuelige principper, der hjælper dig til at sammensætte din kost på en måde, der sikrer dig en optimal mæthed og et stabilt blodsukker gennem hele dagen. Sense er ikke en kur, men derimod en livsstil, der passer til alle mennesker, uanset størrelse, alder og vægt. Sense er egnet til varige vægttab, men egner sig også godt til vægtvedligeholdelse. Du skal betragte Sense som en værktøjskasse, der hjælper dig til at få struktur på dine måltider. Det vigtigste værktøj i værktøjskassen er Sense-spisekassemodellen, der giver dig en skabelon for dine måltider. Sense-spisekassemodellen består af tre spisekasser, der igen består af en særlig måde at sammensætte kosten på ud fra 3-4 håndfulde(HF) mad og 1-3 spiseskefulde fedtstof.”  "
+                tools:layout_editor_absoluteX="40dp"
+                tools:layout_editor_absoluteY="298dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
