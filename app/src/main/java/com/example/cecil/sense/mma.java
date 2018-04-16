@@ -17,4 +17,9 @@ public class mma extends AppCompatActivity {
         Intent intent = new Intent(this, kalender.class);
         startActivity(intent);
     }
+
+    public void Morgen (View V) {
+        Intent intent1 = new Intent(this, Dagbog.class);
+        startActivity(intent1);
+    }
 }
